@@ -13,9 +13,11 @@
   - ....
 
 3. Tên của thiết bị đầu tiên dựa trên nguyên tắc của nơ-ron nhân tạo là gì?
+
 Thiết bị đầu tiên được tạo nên dựa trên nguyên tắc của nơ-ron nhân tạo là Threshold Logic Unit (TLU), hoặc Linear Threshold Unit được đề xuất bởi Warren McCulloch và Walter Pitts vào năm 1943. Mô hình được nhắm mục tiêu cụ thể như một mô hình tính toán của "mạng lưới thần kinh" trong não. Là một hàm truyền, nó sử dụng một ngưỡng, tương đương với việc sử dụng hàm bước Heaviside. Ban đầu, chỉ một mô hình đơn giản được xem xét, với đầu vào và đầu ra nhị phân, một số hạn chế về trọng số có thể có và giá trị ngưỡng linh hoạt hơn. (Wiki)
 
 4. Dựa trên cuốn sách cùng tên, các yêu cầu đối với xử lý phân tán song song (PDP, parallel distributed processing) là gì?
+
 Hệ thống xử lý phân tán song song được mô tả bao gồm một tổ hợp các bộ phận xử lý (processing units), gồm một hoặc nhiều hơn các bộ phận trong các loại sau: state of activation, output function, pattern of connectivity, propagation rule, activation rule, learning rule từ đó tấc động đến môi trường.
 
 Hệ thống này được kì vọng có thể xử lý tất cả các công việc có thể có trên thế giới này.
