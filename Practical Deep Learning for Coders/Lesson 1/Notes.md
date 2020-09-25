@@ -7,7 +7,7 @@
 - Không cần đến những máy tính đắt tiền, hầu như các công cụ đều được cung cấp sẵn
 - Về những cơ bản không cần đến trình độ tiến sĩ mới có thể sử dụng Học sâu
 
-## Kể tên các lĩnh vực mà học sâu hiện là tốt nhất trên thế giới.
+## Kể tên các lĩnh vực mà học sâu hiện là tốt nhất trên thế giới
 
 - Xử lý ngôn ngữ tự nhiên
 - Thị giác máy
@@ -17,15 +17,15 @@
 - Hệ thống gợi ý
 - ....
 
-## Tên của thiết bị đầu tiên dựa trên nguyên tắc của nơ-ron nhân tạo là gì?
+## Tên của thiết bị đầu tiên dựa trên nguyên tắc của nơ-ron nhân tạo là gì
 
 Thiết bị đầu tiên được tạo nên dựa trên nguyên tắc của nơ-ron nhân tạo là Threshold Logic Unit (TLU), hoặc Linear Threshold Unit được đề xuất bởi Warren McCulloch và Walter Pitts vào năm 1943. Mô hình được nhắm mục tiêu cụ thể như một mô hình tính toán của "mạng lưới thần kinh" trong não. Là một hàm truyền, nó sử dụng một ngưỡng, tương đương với việc sử dụng hàm bước Heaviside. Ban đầu, chỉ một mô hình đơn giản được xem xét, với đầu vào và đầu ra nhị phân, một số hạn chế về trọng số có thể có và giá trị ngưỡng linh hoạt hơn. (Wiki)
 
-## Dựa trên cuốn sách cùng tên, các yêu cầu đối với xử lý phân tán song song (PDP, parallel distributed processing) là gì?
+## Dựa trên cuốn sách cùng tên, các yêu cầu đối với xử lý phân tán song song (PDP, parallel distributed processing) là gì
 
 Hệ thống xử lý phân tán song song được mô tả bao gồm một tổ hợp các bộ phận xử lý (processing units), gồm một hoặc nhiều hơn các bộ phận trong các loại sau: state of activation, output function, pattern of connectivity, propagation rule, activation rule, learning rule từ đó tấc động đến môi trường. Hệ thống này được kì vọng có thể xử lý tất cả các công việc có thể có trên thế giới này.
 
-## Hai hiểu lầm lý thuyết đã cản trở lĩnh vực mạng nơ-ron là gì?
+## Hai hiểu lầm lý thuyết đã cản trở lĩnh vực mạng nơ-ron là gì
 
 - Năm 1969, Marvin Minsky và Seymour Papert trong cuốn sách nổi tiếng Perceptrons đã chứng minh rằng không thể ‘học’ được hàm số XOR khi sử dụng perceptron. Phát hiện này làm choáng váng giới khoa học thời gian đó (bây giờ chúng ta thấy việc này khá hiển nhiên). Perceptron được chứng minh rằng chỉ hoạt động nếu dữ liệu là có thể tách được tuyến tính. Cùng với đó, dù họ đã chứng minh trong cùng một cuốn sách rằng các lớp bổ sung có thể giải quyết vấn đề này, chỉ có phát biểu đầu tiên được công nhận, dẫn đến sự bắt đầu của mùa đông AI đầu tiên.
 - Vào những năm 1980, các mô hình có hai lớp đã được khám phá. Về mặt lý thuyết, có thể tính gần đúng bất kỳ hàm toán học nào bằng cách sử dụng hai lớp tế bào thần kinh nhân tạo. Tuy nhiên, trong thực tế, các mạng này quá lớn và quá chậm. Mặc dù nó đã được chứng minh rằng việc thêm các lớp bổ sung đã cải thiện hiệu suất, nhưng thông tin chi tiết này đã không được thừa nhận và mùa đông AI thứ hai đã bắt đầu. Trong thập kỷ qua, với sự gia tăng khả năng cung cấp dữ liệu và những cải tiến trong phần cứng máy tính (cả về hiệu suất CPU nhưng quan trọng hơn là về hiệu suất GPU), mạng thần kinh cuối cùng cũng phát huy hết tiềm năng của nó.
@@ -34,11 +34,11 @@ Hệ thống xử lý phân tán song song được mô tả bao gồm một t�
 
 GPU là viết tắt của Graphics Processing Unit (hay còn gọi là card đồ họa). Máy tính tiêu chuẩn có nhiều thành phần khác nhau như CPU, RAM, v.v. Trong đó CPU, hoặc bộ xử lý trung tâm, là đơn vị cốt lõi của tất cả các máy tính tiêu chuẩn và chúng thực hiện các lệnh tạo nên chương trình máy tính. Trong khi đó, GPU là đơn vị chuyên dụng để hiển thị đồ họa, đặc biệt là đồ họa 3D trong các trò chơi máy tính hiện đại. Các tối ưu hóa phần cứng được sử dụng trong GPU cho phép nó xử lý hàng nghìn tác vụ cùng lúc. Và thật ngẫu nhiên, những tối ưu hóa này cho phép chúng ta chạy và đào tạo mạng thần kinh nhanh hơn hàng trăm lần so với một CPU thông thường dù rất mạnh nhưng lại có quá ít lõi để có thể xử lý song song.
 
-## Mở một notebook và thực hiện một cell có chứa: 1 + 1. Điều gì xảy ra?
+## Mở một notebook và thực hiện một cell có chứa: 1 + 1. Điều gì xảy ra
 
 Trong Máy tính xách tay Jupyter, chúng ta có thể tạo các ô mã và chạy mã theo cách tương tác. Khi chúng tôi thực thi một ô chứa một số mã (trong trường hợp này là: 1 + 1), mã được chạy bởi Python và kết quả được hiển thị bên dưới ô mã (trong trường hợp này là: 2).
 
-## Theo dõi từng cell của phiên bản rút gọn của notebook cho chương này. Trước khi thực hiện từng cell, hãy đoán xem điều gì sẽ xảy ra.
+## Theo dõi từng cell của phiên bản rút gọn của notebook cho chương này. Trước khi thực hiện từng cell, hãy đoán xem điều gì sẽ xảy ra
 
 => Xem notebook
 
@@ -46,7 +46,7 @@ Trong Máy tính xách tay Jupyter, chúng ta có thể tạo các ô mã và ch
 
 => Xem notebook
 
-## Tại sao khó sử dụng chương trình máy tính truyền thống để nhận dạng hình ảnh trong các file ảnh?
+## Tại sao khó sử dụng chương trình máy tính truyền thống để nhận dạng hình ảnh trong các file ảnh
 
 Đối với con người chúng ta, thật dễ dàng để xác định hình ảnh trong một bức ảnh, chẳng hạn như xác định mèo và chó trong một bức ảnh. Điều này là do, trong tiềm thức, bộ não của chúng ta đã học được những đặc điểm nào xác định một con mèo hay một con chó chẳng hạn. Nhưng thật khó để xác định các quy tắc thiết lập cho một chương trình máy tính truyền thống để nhận ra một con mèo hay một con chó. Bạn có thể nghĩ ra quy tắc chung để xác định xem ảnh có mèo hay chó không? Bạn sẽ mã hóa nó như một chương trình máy tính như thế nào? Điều này rất khó vì mèo, chó hoặc các vật thể khác có rất nhiều hình dạng, kết cấu, màu sắc và các tính năng khác, và gần như không thể mã hóa thủ công này trong một chương trình máy tính truyền thống.
 
@@ -62,13 +62,13 @@ Thay vào đó, chúng tôi sử dụng các thuật ngữ tham số. Trong họ
 
 ![tóm tắt quan điểm của Samuel](a166aec89c4e22d2a30a82f4d64e562c6576aa64.png)
 
-## Tại sao khó hiểu tại sao mô hình học sâu lại đưa ra một dự đoán cụ thể?
+## Tại sao khó hiểu tại sao mô hình học sâu lại đưa ra một dự đoán cụ thể
 
 Đây là một chủ đề được nghiên cứu nhiều được biết đến như diễn giải cách thức hoạt động cũng như hiệu quả của các mô hình học sâu. Các mô hình học sâu khó hiểu một phần do tính chất “sâu” của chúng. Hãy nghĩ về một mô hình hồi quy tuyến tính. Đơn giản, chúng ta có một số biến / dữ liệu đầu vào được nhân với một số trọng số, cho chúng ta kết quả đầu ra. Chúng ta có thể hiểu biến nào quan trọng hơn và biến nào ít quan trọng hơn dựa trên trọng số của chúng. Một logic tương tự có thể áp dụng cho một mạng nơ-ron nhỏ có 1-3 lớp. Tuy nhiên, mạng nơ-ron sâu có hàng trăm, nếu không muốn nói là hàng nghìn, lớp. Thật khó để xác định yếu tố nào là quan trọng trong việc xác định sản lượng cuối cùng. Các nơ-ron trong mạng tương tác với nhau, với đầu ra của một số nơ-ron truyền vào các nơ-ron khác. Nhìn chung, do tính chất phức tạp của các mô hình học sâu, rất khó hiểu tại sao một mạng nơ-ron lại đưa ra một dự đoán nhất định.
 
 Tuy nhiên, trong một số trường hợp, nghiên cứu gần đây đã giúp dễ dàng hiểu hơn về dự đoán của mạng nơ-ron. Ví dụ, như được trình bày trong chương này, chúng ta có thể phân tích các bộ trọng số và xác định loại tính năng nào kích hoạt các nơ-ron. Khi áp dụng CNN vào hình ảnh, chúng ta cũng có thể thấy phần nào của hình ảnh kích hoạt mô hình cao. Chúng ta sẽ xem cách chúng ta có thể diễn giải các mô hình của mình ở phần sau của cuốn sách.
 
-## Tên của định lý cho thấy rằng một mạng nơron có thể giải quyết bất kỳ vấn đề toán học nào với độ chính xác bất kỳ?
+## Tên của định lý cho thấy rằng một mạng nơron có thể giải quyết bất kỳ vấn đề toán học nào với độ chính xác bất kỳ
 
 Định lý xấp xỉ phổ quát nói rằng mạng nơron về mặt lý thuyết có thể biểu diễn bất kỳ hàm toán học nào. Tuy nhiên, điều quan trọng cần nhận ra là trên thực tế, do giới hạn của dữ liệu có sẵn và phần cứng máy tính, không thể đào tạo một cách thực tế một mô hình để làm được điều đó. Nhưng chúng ta có thể tiến đến rất gần kết quả cực đại.
 
