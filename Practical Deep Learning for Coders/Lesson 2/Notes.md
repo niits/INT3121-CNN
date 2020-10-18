@@ -53,13 +53,14 @@ Các mô hình đào tạo yêu cầu nhiều tham số khác nhau xác định 
 
 ## p-value là gì
 
-Trị số P là một con số xác suất, tức là viết tắt chữ “probability value”. Chúng ta thường gặp những phát biểu được kèm theo con số, chẳng hạn như “Kết quả phân tích cho thấy tỉ lệ gãy xương trong nhóm bệnh nhân được điều trị bằng thuốc Alendronate là 2%, thấp hơn tỉ lệ trong nhóm bệnh nhân không được chữa trị (5%), và mức độ khác biệt này có ý nghĩa thống kê (p = 0.01)”, hay một phát biểu như “Sau 3 tháng điều trị, mức độ giảm áp suất máu trong nhóm bệnh nhân là 10% (p < 0.05)”. Trong văn cảnh trên đây, đại đa số nhà khoa học hiểu rằng trị số P phản ánh xác suất sự hiệu nghiệm của thuốc Alendronate hay một thuật điều trị. Có nhiều người hiểu rằng câu văn trên có nghĩa là “xác suất mà thuốc Alendronate tốt hơn giả dược là 0.99” (lấy 1 trừ cho 0.01). Nhưng cách hiểu đó hoàn toàn sai.  
+Trị số P là một con số xác suất, tức là viết tắt chữ “probability value”. Chúng ta thường gặp những phát biểu được kèm theo con số, chẳng hạn như “Kết quả phân tích cho thấy tỉ lệ gãy xương trong nhóm bệnh nhân được điều trị bằng thuốc Alendronate là 2%, thấp hơn tỉ lệ trong nhóm bệnh nhân không được chữa trị (5%), và mức độ khác biệt này có ý nghĩa thống kê (p = 0.01)”, hay một phát biểu như “Sau 3 tháng điều trị, mức độ giảm áp suất máu trong nhóm bệnh nhân là 10% (p < 0.05)”. Trong văn cảnh trên đây, đại đa số nhà khoa học hiểu rằng trị số P phản ánh xác suất sự hiệu nghiệm của thuốc Alendronate hay một thuật điều trị. Có nhiều người hiểu rằng câu văn trên có nghĩa là “xác suất mà thuốc Alendronate tốt hơn giả dược là 0.99” (lấy 1 trừ cho 0.01). Nhưng cách hiểu đó hoàn toàn sai.
 
 ## Prior là gì
 
-## Cung cấp một ví dụ về nơi mà mô hình phân loại gấu có thể hoạt động kém, do sự khác biệt về cấu trúc hoặc kiểu dáng đối với dữ liệu huấn luyện.
+## Cung cấp một ví dụ về nơi mà mô hình phân loại gấu có thể hoạt động kém, do sự khác biệt về cấu trúc hoặc kiểu dáng đối với dữ liệu huấn luyện
 
 Có nhiều trường hợp mô hình phân loại gấu có thể không thành công, đặc biệt nếu những trường hợp này không được thể hiện trong dữ liệu đào tạo:
+
 - Con gấu bị cản trở một phần
 - Hình ảnh ban đêm được chuyển vào mô hình
 - Hình ảnh có độ phân giải thấp được chuyển vào mô hình
@@ -82,15 +83,15 @@ Các dự đoán của mô hình có thể được các chuyên gia về con ng
 
 Học sâu rất tốt trong việc phân tích dữ liệu dạng bảng bao gồm ngôn ngữ tự nhiên hoặc các cột phân loại có bản số cao (chứa nhiều lựa chọn rời rạc hơn như mã zip).
 
-## Nhược điểm chính của việc sử dụng trực tiếp mô hình học sâu cho hệ thống đề xuất là gì?
+## Nhược điểm chính của việc sử dụng trực tiếp mô hình học sâu cho hệ thống đề xuất là gì
 
 Các phương pháp tiếp cận máy học cho hệ thống đề xuất thường sẽ chỉ cho biết người dùng có thể thích sản phẩm nào và có thể không phải là các đề xuất hữu ích cho người dùng. Ví dụ: nếu người dùng quen thuộc với các sách khác của cùng một tác giả, thì việc giới thiệu các sản phẩm đó sẽ không hữu ích ngay cả khi người dùng đã mua sách của tác giả đó. Hoặc, giới thiệu các sản phẩm mà người dùng có thể đã mua.
 
 ## Các bước của Phương pháp Tiếp cận Hệ thống Truyền lực (Drivetrain Approach) là gì
 
-![](https://forums.fast.ai/uploads/default/original/2X/b/b4fcf03eeeca3ebe8d5948067509784f8f0c2351.png)
+![images](https://forums.fast.ai/uploads/default/original/2X/b/b4fcf03eeeca3ebe8d5948067509784f8f0c2351.png)
 
-## Làm thế nào để các bước của phương pháp Hệ thống truyền lực ánh xạ đến hệ thống khuyến nghị?
+## Làm thế nào để các bước của phương pháp Hệ thống truyền lực ánh xạ đến hệ thống khuyến nghị
 
 Mục tiêu của công cụ đề xuất là thúc đẩy doanh số bán hàng bổ sung bằng cách làm khách hàng ngạc nhiên và thích thú với các đề xuất về các mặt hàng mà họ sẽ không mua nếu không có đề xuất. Đòn bẩy là thứ hạng của các khuyến nghị. Dữ liệu mới phải được thu thập để tạo ra các đề xuất sẽ gây ra doanh số bán hàng mới. Điều này sẽ yêu cầu tiến hành nhiều thử nghiệm ngẫu nhiên để thu thập dữ liệu về một loạt các đề xuất cho nhiều khách hàng. Đây là một bước mà ít tổ chức thực hiện; nhưng nếu không có nó, bạn không có thông tin cần thiết để thực sự tối ưu hóa các đề xuất dựa trên mục tiêu thực sự của bạn (bán hàng nhiều hơn!)
 
